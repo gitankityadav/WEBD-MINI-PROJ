@@ -1,36 +1,41 @@
-<h1>Sudoku Solver</h1>
+# Simple React JS Project
+This Project is a Simple ReactJS Project which demonstrates the following
+1. Creating a Component in React
+2. Making HTTP calls
+3. Communicating between parent and child component
+4. Using Bootstrap along with React
+5. Using Basic Routing in React
 
-<p>An Sudoku Solver made using backtracking.</p>
+## Prerequisites
 
-### Use of the Project:
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-<p>It can be used to solve the Sudoku. </p>
+### Install create-react-app
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-<h3>Used Technologies</h3>
-<ul>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>JavaScript</li>
- 
-
-</ul>
-
-#### Steps to Use:
-
----
-
-- Download or clone the repository
-
-```
-git clone https://github.com/soma2000-lang/Web-dev-mini-projects.git
+```bash
+npm install -g create-react-app
 ```
 
-- Go to the directory
-- Run the index.html file by copying the file path and pasting it in your browser
--And there you play
+## Cloning and Running the Application in local
 
-<h3> ScreenShot </h3> 
-<img width="960" alt="Sudoku Solver" src="https://github.com/soma2000-lang/Sudoku-Solver/blob/main/WhatsApp%20Image%202021-07-21%20at%2022.41.36%20(1).jpeg">
+Clone the project into local
 
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-<br>
+```bash
+npm install
+```
+
+In order to run the application Type the following command
+
+```bash
+npm start
+```
+
+The Application Runs on **localhost:3000**
+
+## Screenshot
+
+![demo](./demo.png)
